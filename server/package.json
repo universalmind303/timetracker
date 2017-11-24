@@ -1,0 +1,27 @@
+{
+  "name": "Server",
+  "version": "0.0.1",
+  "author": "Cory Grinstead",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.7.2",
+    "mongodb": "^2.2.33",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "nodemon": "^1.12.1"
+  }
+}
